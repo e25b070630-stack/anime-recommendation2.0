@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#TOP {
+  background-color: red;
+  height: 15%;
+  width: 100%;
+}
+
+#bottom {
+  height: 85%;
+  width: 100%;
+  display: flex;   
+}
+
+#genre {
+  width: 20%;
+  background-color: greenyellow;
+}
+
+#TOP_Trending_animes {
+  width: 80%;
+  background-color: blue;
+}
