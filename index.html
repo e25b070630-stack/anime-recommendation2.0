@@ -3,17 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anime Explorer | Find Your Next Favorite</title>
     <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts for premium feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="TOP"></div>
-    <div id="bottom">
-        <div id="TOP_Trending_animes"></div>
-        <div id="genre"></div>
-    </div>
+
+    <!-- TOP BAR -->
+    <header id="TOP">
+        <div class="logo">Anime<span>Explorer</span></div>
+        <div class="controls" id="top-controls">
+            <!-- JS will insert: Theme toggle, search bar, sort -->
+        </div>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main id="bottom">
+        
+        <!-- GENRE FILTER SECTION -->
+        <section id="genre">
+            <h3>Filter by Genre</h3>
+            <div class="genre-list" id="genre-buttons">
+                <!-- Genre buttons rendered here -->
+            </div>
+        </section>
+
+        <!-- ANIME GRID -->
+        <section id="TOP_Trending_animes">
+            <!-- Cards rendered here -->
+            <div class="loader">Loading your anime...</div>
+        </section>
+
+    </main>
 
     <script src="index.js" type="module"></script>
-    
 </body>
 </html>
