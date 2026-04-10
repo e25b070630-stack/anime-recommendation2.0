@@ -43,7 +43,8 @@ open index.html
 ```
 anime-recommendation2.0/
 ├── index.html      # Main HTML structure
-├── index.js        # JavaScript logic and API calls
+|-- fetch-anime.js  #fetchs anime
+├── index.js        # JavaScript logic and API calls and filter and sorting
 ├── style.css       # Styling (optional, referenced in HTML)
 └── README.md       # Project documentation
 ```
